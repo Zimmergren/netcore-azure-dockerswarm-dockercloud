@@ -4,6 +4,5 @@ services:
     build:
       context: .
       dockerfile: ./docker-runner.dockerfile
-    restart: always
     stdin_open: true
     mem_limit: 25m
